@@ -1,0 +1,41 @@
+.wrapper {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.accordeon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accordeon__meme {
+    border-top: 0.15rem solid gray;
+}
+
+.accordeon__text, .button {
+    font-size: 2.4rem;
+}
+
+.accordeon__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordeon__input {
+    appearance: none
+}
+
+.accordeon__img {
+    text-align: center;
+}
+
+img {
+    padding: 1rem;
+    max-width: 60%;
+}
